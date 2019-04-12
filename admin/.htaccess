@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile C:\wamp\www\webfinal\admin\.htpasswd
+Require user admin

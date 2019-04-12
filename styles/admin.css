@@ -1,0 +1,271 @@
+html, body {
+  background-image: url(../resources/adminbg.jpg);
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+/* PANEL DE CONTROL */
+
+/* ADMIN GENERAL */
+
+div .usuarios, .visitas, .pedidos {
+  margin: 5px;
+  float: left;
+  width: 180px;
+  background-color: rgba(102,0,153,0.2);
+  text-align: center;
+  padding: 20px;
+}
+
+div .usuarios:hover, .visitas:hover, .pedidos:hover {
+  background-color:  rgba(102,0,153,0.3);
+}
+
+
+div.instagram, .facebook, .youtube {
+  margin: 5px;
+  float: left;
+  width: 180px;
+  background-color: rgba(0,204,51,0.2);
+  text-align: center;
+  padding: 20px;
+}
+
+div.instagram:hover, .facebook:hover, .youtube:hover {
+  background-color: rgba(0,255,51,0.2);
+}
+
+.addcars {
+  clear: both;
+  padding: 10px;
+}
+
+.formcars {
+  background-color: rgba(204,51,153,0.2);
+  padding: 20px;
+}
+
+.formcars input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.formcars input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.addcars input[type="file"] {
+  background-color: rgba(204,0,0,0.2);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+}
+
+/*--*/
+
+.addblog {
+  clear: both;
+  padding: 10px;
+}
+
+.formblog {
+  background-color: rgba(204,51,153,0.2);
+  padding: 20px;
+}
+
+.formblog input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.formblog input[type="textarea"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+.formblog input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.addblog input[type="file"] {
+  background-color: rgba(204,0,0,0.2);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+}
+
+
+
+/* MENSAJES */
+
+.main h1 {
+  text-align: center;
+  background-color: rgba(0,0,0,0.3);
+  padding: 20px;
+  color: white;
+}
+
+.mensajes {
+  background-color: rgba(0,0,0,0.3);
+  padding: 20px;
+}
+
+.nombre, .apellido, .pais, .asunto, .idcaso {
+  background-color: rgba(0,0,0,0.4);
+  padding: 20px;
+  color: white;
+}
+
+
+.mensajes input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  height:200px;
+}
+
+input[type=submit] {
+  background-color: #ba001b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #910015;
+}
+
+.download {
+  background-color: #ba001b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.download:hover {
+  background-color: #910015;
+}
+
+/* NEWSLETTER */
+
+.correos {
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px;
+  color: white;
+}
+
+/* PEDIDOS */
+
+.main h1 {
+  text-align: center;
+  background-color: rgba(0,0,0,0.3);
+  padding: 20px;
+  color: white;
+}
+
+.pedidosclientes {
+  margin: 5px;
+  float: left;
+  width: 22%;
+  background-color: rgba(17,17,17,0.2);
+  text-align: center;
+  padding: 20px;
+}
+
+.paispedido , .nombrepedido, .apellidopedido, .referencia, .direccion, .telefono, .email {
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px;
+  color: white;
+}
+
+.idpedido {
+  background-color: rgba(255,255,255,0.4);
+  padding: 10px;
+  color: white;
+  display: inline-block;
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
